@@ -1,0 +1,2 @@
+# SmartScanner
+Smart Barcode Scanner.
