@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E592B628ED70434783CC63B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6A180DD0FD40B8D67B26D7 /* libPods.a */; };
+		DCAF2BDB1B54FD51001B0324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAF2BD91B54FD51001B0324 /* Main.storyboard */; };
+		DCBB5B801B53B30300A6E201 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCBB5B7F1B53B30300A6E201 /* Podfile */; };
+		DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */; };
+		DCEACA5A1B52DE9E002D78B2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA591B52DE9E002D78B2 /* FirstViewController.swift */; };
+		DCEACA5C1B52DE9E002D78B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA5B1B52DE9E002D78B2 /* SecondViewController.swift */; };
+		DCEACA611B52DE9E002D78B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEACA601B52DE9E002D78B2 /* Images.xcassets */; };
+		DCEACA641B52DE9E002D78B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */; };
+		DCEACA701B52DE9E002D78B2 /* SmartScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA6F1B52DE9E002D78B2 /* SmartScannerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCEACA6A1B52DE9E002D78B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCEACA4A1B52DE9E002D78B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCEACA511B52DE9E002D78B2;
+			remoteInfo = SmartScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F6A180DD0FD40B8D67B26D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7195EEBFABA1EF12C039B019 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8BF09FEBB2430F1C9095B58D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DCAF2BDC1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCAF2BDD1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DCBB5B7F1B53B30300A6E201 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCEACA521B52DE9E002D78B2 /* SmartScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEACA561B52DE9E002D78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCEACA591B52DE9E002D78B2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DCEACA5B1B52DE9E002D78B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DCEACA601B52DE9E002D78B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCEACA691B52DE9E002D78B2 /* SmartScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEACA6E1B52DE9E002D78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCEACA6F1B52DE9E002D78B2 /* SmartScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartScannerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCEACA4F1B52DE9E002D78B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E592B628ED70434783CC63B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEACA661B52DE9E002D78B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C80C159365CEB14213EC113 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7195EEBFABA1EF12C039B019 /* Pods.debug.xcconfig */,
+				8BF09FEBB2430F1C9095B58D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		92DBEA48310F4E15C080E7FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F6A180DD0FD40B8D67B26D7 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCEACA491B52DE9E002D78B2 = {
+			isa = PBXGroup;
+			children = (
+				DCBB5B7F1B53B30300A6E201 /* Podfile */,
+				DCEACA541B52DE9E002D78B2 /* SmartScanner */,
+				DCEACA6C1B52DE9E002D78B2 /* SmartScannerTests */,
+				DCEACA531B52DE9E002D78B2 /* Products */,
+				6C80C159365CEB14213EC113 /* Pods */,
+				92DBEA48310F4E15C080E7FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEACA531B52DE9E002D78B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCEACA521B52DE9E002D78B2 /* SmartScanner.app */,
+				DCEACA691B52DE9E002D78B2 /* SmartScannerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCEACA541B52DE9E002D78B2 /* SmartScanner */ = {
+			isa = PBXGroup;
+			children = (
+				DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */,
+				DCEACA591B52DE9E002D78B2 /* FirstViewController.swift */,
+				DCEACA5B1B52DE9E002D78B2 /* SecondViewController.swift */,
+				DCEACA601B52DE9E002D78B2 /* Images.xcassets */,
+				DCAF2BD91B54FD51001B0324 /* Main.storyboard */,
+				DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */,
+				DCEACA551B52DE9E002D78B2 /* Supporting Files */,
+			);
+			path = SmartScanner;
+			sourceTree = "<group>";
+		};
+		DCEACA551B52DE9E002D78B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCEACA561B52DE9E002D78B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCEACA6C1B52DE9E002D78B2 /* SmartScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCEACA6F1B52DE9E002D78B2 /* SmartScannerTests.swift */,
+				DCEACA6D1B52DE9E002D78B2 /* Supporting Files */,
+			);
+			path = SmartScannerTests;
+			sourceTree = "<group>";
+		};
+		DCEACA6D1B52DE9E002D78B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCEACA6E1B52DE9E002D78B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCEACA511B52DE9E002D78B2 /* SmartScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEACA731B52DE9E002D78B2 /* Build configuration list for PBXNativeTarget "SmartScanner" */;
+			buildPhases = (
+				59CDCB8281AA44026896882F /* Check Pods Manifest.lock */,
+				DCEACA4E1B52DE9E002D78B2 /* Sources */,
+				DCEACA4F1B52DE9E002D78B2 /* Frameworks */,
+				DCEACA501B52DE9E002D78B2 /* Resources */,
+				4FB963EA35CF05ACE42910E4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartScanner;
+			productName = SmartScanner;
+			productReference = DCEACA521B52DE9E002D78B2 /* SmartScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCEACA681B52DE9E002D78B2 /* SmartScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCEACA761B52DE9E002D78B2 /* Build configuration list for PBXNativeTarget "SmartScannerTests" */;
+			buildPhases = (
+				DCEACA651B52DE9E002D78B2 /* Sources */,
+				DCEACA661B52DE9E002D78B2 /* Frameworks */,
+				DCEACA671B52DE9E002D78B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCEACA6B1B52DE9E002D78B2 /* PBXTargetDependency */,
+			);
+			name = SmartScannerTests;
+			productName = SmartScannerTests;
+			productReference = DCEACA691B52DE9E002D78B2 /* SmartScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCEACA4A1B52DE9E002D78B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "2-B.jp";
+				TargetAttributes = {
+					DCEACA511B52DE9E002D78B2 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 535MMTTTJK;
+					};
+					DCEACA681B52DE9E002D78B2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = DCEACA511B52DE9E002D78B2;
+					};
+				};
+			};
+			buildConfigurationList = DCEACA4D1B52DE9E002D78B2 /* Build configuration list for PBXProject "SmartScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				ja,
+				Base,
+			);
+			mainGroup = DCEACA491B52DE9E002D78B2;
+			productRefGroup = DCEACA531B52DE9E002D78B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCEACA511B52DE9E002D78B2 /* SmartScanner */,
+				DCEACA681B52DE9E002D78B2 /* SmartScannerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCEACA501B52DE9E002D78B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEACA641B52DE9E002D78B2 /* LaunchScreen.xib in Resources */,
+				DCBB5B801B53B30300A6E201 /* Podfile in Resources */,
+				DCEACA611B52DE9E002D78B2 /* Images.xcassets in Resources */,
+				DCAF2BDB1B54FD51001B0324 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEACA671B52DE9E002D78B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4FB963EA35CF05ACE42910E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59CDCB8281AA44026896882F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCEACA4E1B52DE9E002D78B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEACA5C1B52DE9E002D78B2 /* SecondViewController.swift in Sources */,
+				DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */,
+				DCEACA5A1B52DE9E002D78B2 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCEACA651B52DE9E002D78B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEACA701B52DE9E002D78B2 /* SmartScannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCEACA6B1B52DE9E002D78B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCEACA511B52DE9E002D78B2 /* SmartScanner */;
+			targetProxy = DCEACA6A1B52DE9E002D78B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCAF2BD91B54FD51001B0324 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAF2BDC1B54FE28001B0324 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCAF2BDD1B54FE28001B0324 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCEACA711B52DE9E002D78B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCEACA721B52DE9E002D78B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCEACA741B52DE9E002D78B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7195EEBFABA1EF12C039B019 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCEACA751B52DE9E002D78B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BF09FEBB2430F1C9095B58D /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SmartScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DCEACA771B52DE9E002D78B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartScanner.app/SmartScanner";
+			};
+			name = Debug;
+		};
+		DCEACA781B52DE9E002D78B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SmartScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartScanner.app/SmartScanner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCEACA4D1B52DE9E002D78B2 /* Build configuration list for PBXProject "SmartScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEACA711B52DE9E002D78B2 /* Debug */,
+				DCEACA721B52DE9E002D78B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEACA731B52DE9E002D78B2 /* Build configuration list for PBXNativeTarget "SmartScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEACA741B52DE9E002D78B2 /* Debug */,
+				DCEACA751B52DE9E002D78B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCEACA761B52DE9E002D78B2 /* Build configuration list for PBXNativeTarget "SmartScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCEACA771B52DE9E002D78B2 /* Debug */,
+				DCEACA781B52DE9E002D78B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCEACA4A1B52DE9E002D78B2 /* Project object */;
+}
