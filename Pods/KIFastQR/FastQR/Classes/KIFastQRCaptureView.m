@@ -90,7 +90,19 @@
     dispatch_queue_t dispatchQueue;
     dispatchQueue = dispatch_queue_create("KIFastQRCapture", NULL);
     [output setMetadataObjectsDelegate:self queue:dispatchQueue];
-    [output setMetadataObjectTypes:@[AVMetadataObjectTypeQRCode]];
+    [output setMetadataObjectTypes:@[
+									 AVMetadataObjectTypeQRCode,		//QRコード
+									 AVMetadataObjectTypeUPCECode,		//UPC-E
+									 AVMetadataObjectTypeCode39Code,	//Code 39
+									 AVMetadataObjectTypeCode39Mod43Code,//Code 39 mod 43
+									 AVMetadataObjectTypeEAN13Code,		//EAN-13(JANコード標準タイプ)
+									 AVMetadataObjectTypeEAN8Code,		//EAN-8(JANコード短縮タイプ)
+									 AVMetadataObjectTypeCode93Code,	//Code 93
+									 AVMetadataObjectTypeCode128Code,	//Code 128
+									 AVMetadataObjectTypePDF417Code,	//PDF417
+									 AVMetadataObjectTypeAztecCode,		//Aztec code
+									 AVMetadataObjectTypeFace,			//(参考)人の顔
+									 ]];
     
     return output;
 }

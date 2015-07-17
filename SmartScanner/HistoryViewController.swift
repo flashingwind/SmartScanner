@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  HistoryViewController.swift
 //  SmartScanner
 //
 //  Created by munenori on 2015/07/13.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class HistoryViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()

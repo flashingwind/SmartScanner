@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6E592B628ED70434783CC63B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6A180DD0FD40B8D67B26D7 /* libPods.a */; };
+		381F0E15DF11A8704930D163 /* Pods_SmartScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DC4CF6C3533A3B58141957AA /* Pods_SmartScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DCAF2BDB1B54FD51001B0324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAF2BD91B54FD51001B0324 /* Main.storyboard */; };
 		DCBB5B801B53B30300A6E201 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCBB5B7F1B53B30300A6E201 /* Podfile */; };
 		DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */; };
-		DCEACA5A1B52DE9E002D78B2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA591B52DE9E002D78B2 /* FirstViewController.swift */; };
-		DCEACA5C1B52DE9E002D78B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA5B1B52DE9E002D78B2 /* SecondViewController.swift */; };
+		DCEACA5A1B52DE9E002D78B2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA591B52DE9E002D78B2 /* CameraViewController.swift */; };
+		DCEACA5C1B52DE9E002D78B2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA5B1B52DE9E002D78B2 /* HistoryViewController.swift */; };
 		DCEACA611B52DE9E002D78B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEACA601B52DE9E002D78B2 /* Images.xcassets */; };
 		DCEACA641B52DE9E002D78B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */; };
 		DCEACA701B52DE9E002D78B2 /* SmartScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA6F1B52DE9E002D78B2 /* SmartScannerTests.swift */; };
@@ -29,17 +30,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EB1E4F560BA9E4610120D83 /* Pods-SmartScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		12922A84492DB45242D9B336 /* Pods-SmartScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		40BE4E7C006E5A82AA91A86C /* Pods-SmartScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner.release.xcconfig"; sourceTree = "<group>"; };
 		4F6A180DD0FD40B8D67B26D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7195EEBFABA1EF12C039B019 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		8BF09FEBB2430F1C9095B58D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		980F28A995A52899806EC837 /* Pods-SmartScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAF2BDC1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCAF2BDD1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DCBB5B7F1B53B30300A6E201 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DCEACA521B52DE9E002D78B2 /* SmartScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEACA561B52DE9E002D78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCEACA591B52DE9E002D78B2 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		DCEACA5B1B52DE9E002D78B2 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DCEACA591B52DE9E002D78B2 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		DCEACA5B1B52DE9E002D78B2 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		DCEACA601B52DE9E002D78B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCEACA691B52DE9E002D78B2 /* SmartScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEACA6E1B52DE9E002D78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E592B628ED70434783CC63B /* libPods.a in Frameworks */,
+				381F0E15DF11A8704930D163 /* Pods_SmartScanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4CF6C3533A3B58141957AA /* Pods_SmartScannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,8 +74,10 @@
 		6C80C159365CEB14213EC113 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7195EEBFABA1EF12C039B019 /* Pods.debug.xcconfig */,
-				8BF09FEBB2430F1C9095B58D /* Pods.release.xcconfig */,
+				0EB1E4F560BA9E4610120D83 /* Pods-SmartScannerTests.debug.xcconfig */,
+				12922A84492DB45242D9B336 /* Pods-SmartScannerTests.release.xcconfig */,
+				980F28A995A52899806EC837 /* Pods-SmartScanner.debug.xcconfig */,
+				40BE4E7C006E5A82AA91A86C /* Pods-SmartScanner.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -78,6 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				4F6A180DD0FD40B8D67B26D7 /* libPods.a */,
+				85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */,
+				AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,8 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */,
-				DCEACA591B52DE9E002D78B2 /* FirstViewController.swift */,
-				DCEACA5B1B52DE9E002D78B2 /* SecondViewController.swift */,
+				DCEACA591B52DE9E002D78B2 /* CameraViewController.swift */,
+				DCEACA5B1B52DE9E002D78B2 /* HistoryViewController.swift */,
 				DCEACA601B52DE9E002D78B2 /* Images.xcassets */,
 				DCAF2BD91B54FD51001B0324 /* Main.storyboard */,
 				DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */,
@@ -154,6 +164,7 @@
 				DCEACA4F1B52DE9E002D78B2 /* Frameworks */,
 				DCEACA501B52DE9E002D78B2 /* Resources */,
 				4FB963EA35CF05ACE42910E4 /* Copy Pods Resources */,
+				3067F350D5CAB8D4DBEBBB32 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -168,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCEACA761B52DE9E002D78B2 /* Build configuration list for PBXNativeTarget "SmartScannerTests" */;
 			buildPhases = (
+				74CF023EA11BCA85B6CCDCAB /* Check Pods Manifest.lock */,
 				DCEACA651B52DE9E002D78B2 /* Sources */,
 				DCEACA661B52DE9E002D78B2 /* Frameworks */,
 				DCEACA671B52DE9E002D78B2 /* Resources */,
+				DA1034DC3DF68754D2133BC7 /* Embed Pods Frameworks */,
+				CF261FAB1DBDF93B109CFC9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,6 +256,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3067F350D5CAB8D4DBEBBB32 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4FB963EA35CF05ACE42910E4 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,7 +283,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		59CDCB8281AA44026896882F /* Check Pods Manifest.lock */ = {
@@ -272,6 +301,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		74CF023EA11BCA85B6CCDCAB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF261FAB1DBDF93B109CFC9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1034DC3DF68754D2133BC7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -279,9 +353,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCEACA5C1B52DE9E002D78B2 /* SecondViewController.swift in Sources */,
+				DCEACA5C1B52DE9E002D78B2 /* HistoryViewController.swift in Sources */,
 				DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */,
-				DCEACA5A1B52DE9E002D78B2 /* FirstViewController.swift in Sources */,
+				DCEACA5A1B52DE9E002D78B2 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +435,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,6 +475,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -408,30 +485,33 @@
 		};
 		DCEACA741B52DE9E002D78B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7195EEBFABA1EF12C039B019 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 980F28A995A52899806EC837 /* Pods-SmartScanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SmartScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		DCEACA751B52DE9E002D78B2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8BF09FEBB2430F1C9095B58D /* Pods.release.xcconfig */;
+			baseConfigurationReference = 40BE4E7C006E5A82AA91A86C /* Pods-SmartScanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SmartScanner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
 		DCEACA771B52DE9E002D78B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EB1E4F560BA9E4610120D83 /* Pods-SmartScannerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -445,12 +525,16 @@
 				INFOPLIST_FILE = SmartScannerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartScanner.app/SmartScanner";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		DCEACA781B52DE9E002D78B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12922A84492DB45242D9B336 /* Pods-SmartScannerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -460,7 +544,10 @@
 				INFOPLIST_FILE = SmartScannerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartScanner.app/SmartScanner";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};

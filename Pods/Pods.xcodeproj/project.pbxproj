@@ -7,258 +7,582 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D1909E9C95E7DA222291ED1 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1898EC9AD5525F291347CEDC /* Pods-dummy.m */; };
-		3D2B869AD88C3B3B6781619A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F36933F738F06AC3B0942A /* Foundation.framework */; };
-		A484DF83435478DF604FA0FB /* KIFastQRCaptureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4735F924D000FD74E45C0830 /* KIFastQRCaptureView.h */; };
-		CC721B6D6AB5B9C8BCC230F4 /* Pods-KIFastQR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B73036CBFFF0C639A9900D6 /* Pods-KIFastQR-dummy.m */; };
-		D5B415D299FBBDC74FAC9155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F36933F738F06AC3B0942A /* Foundation.framework */; };
-		F21F36794CB5F28D1E1C6303 /* KIFastQRCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A99EA38F7521E4D1C3ED6BE /* KIFastQRCaptureView.m */; };
+		1D8AEDD840F0F7D25ACDF17F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA62CE18E21ED3793516F0A /* Foundation.framework */; };
+		22B1C3A0966619E82AE22309 /* Pods-SmartScannerTests-KIFastQR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD0EC48E8D0D54EBD1DFB50 /* Pods-SmartScannerTests-KIFastQR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274B054CC999F6498D87DD31 /* Pods-SmartScanner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA4FBB1F6141749F5F49873 /* Pods-SmartScanner-dummy.m */; };
+		486E8FD72F5C7B534D8D7CFF /* KIFastQRCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 482EDFFD143EA21F127D30C1 /* KIFastQRCaptureView.m */; };
+		66F6DCCFD49D1C619EE5E3C2 /* Pods-SmartScanner-KIFastQR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F6549E4B287FDC6372F1DB2 /* Pods-SmartScanner-KIFastQR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73F980A205338665B32C0DC2 /* Pods-SmartScanner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30493275EA7188B606E276F1 /* Pods-SmartScanner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74BF6BE2B6AFE33BF1DD0C7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA62CE18E21ED3793516F0A /* Foundation.framework */; };
+		7644315A2CB017662D6A31B2 /* KIFastQRCaptureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC9339679E3790AD92617C1 /* KIFastQRCaptureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		782CFB0A420F094510DC1326 /* Pods-SmartScannerTests-KIFastQR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 369256570481D80A3492D813 /* Pods-SmartScannerTests-KIFastQR-dummy.m */; };
+		78D97BB388B50BA984ED2278 /* Pods-SmartScannerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7930F89CE2944B79AA85F18 /* Pods-SmartScannerTests-dummy.m */; };
+		7EE7853BA2CF50B783D70C6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA62CE18E21ED3793516F0A /* Foundation.framework */; };
+		AB4506B88D2E12AF3FEB9D37 /* Pods-SmartScannerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA96C98E59754F69EB4DFAB /* Pods-SmartScannerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10D07A957A9872CF9D71C3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA62CE18E21ED3793516F0A /* Foundation.framework */; };
+		D653574AE2D2C3BABD0C72A8 /* KIFastQRCaptureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC9339679E3790AD92617C1 /* KIFastQRCaptureView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E21DF4C465CCA748FAD44AB4 /* KIFastQRCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 482EDFFD143EA21F127D30C1 /* KIFastQRCaptureView.m */; };
+		E66418BD3A7D911D28CD75D3 /* Pods-SmartScanner-KIFastQR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 811EEAE7B0CB5360C6500E05 /* Pods-SmartScanner-KIFastQR-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7688B80E8CFEF0DBEA8B19C2 /* PBXContainerItemProxy */ = {
+		3DCA8FDFB21328F17638DA65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9362E131DE1D789E6058621E /* Project object */;
+			containerPortal = F16945F5B00240D889E2B0C7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 257DB91840E954443476B1AE;
-			remoteInfo = "Pods-KIFastQR";
+			remoteGlobalIDString = AB5117A632ADE6B44D73AA78;
+			remoteInfo = "Pods-SmartScannerTests-KIFastQR";
+		};
+		47FB8D3026A8F1E505E80C2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16945F5B00240D889E2B0C7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67109E7D4B764DBA304683F8;
+			remoteInfo = "Pods-SmartScanner-KIFastQR";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08067FD9FD27694147F70AAB /* Pods-KIFastQR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KIFastQR-prefix.pch"; sourceTree = "<group>"; };
-		08F381F0536AC7013DA7F91A /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1898EC9AD5525F291347CEDC /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		1D4D788124DCAE52BC64BF21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		22F224BF6FB9FD4A6EE1FE6F /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
-		4735F924D000FD74E45C0830 /* KIFastQRCaptureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFastQRCaptureView.h; path = FastQR/Classes/KIFastQRCaptureView.h; sourceTree = "<group>"; };
-		4B73036CBFFF0C639A9900D6 /* Pods-KIFastQR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KIFastQR-dummy.m"; sourceTree = "<group>"; };
-		59F36933F738F06AC3B0942A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5A99EA38F7521E4D1C3ED6BE /* KIFastQRCaptureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFastQRCaptureView.m; path = FastQR/Classes/KIFastQRCaptureView.m; sourceTree = "<group>"; };
-		626E459386DC5B772F16372B /* libPods-KIFastQR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KIFastQR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AC860FEC50BB00C59ABA578 /* Pods-KIFastQR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KIFastQR.xcconfig"; sourceTree = "<group>"; };
-		7A6ACB1B35413650D1FE0852 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		7C4A5409A9A8BE5B43A40161 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		995506E731D09CC8FA36AF44 /* Pods-KIFastQR-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KIFastQR-Private.xcconfig"; sourceTree = "<group>"; };
-		9E5AD7E93E88DB8297CD224A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBDE73FB65C91586AC762A79 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		E129D65ECA8724467B6A23EF /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		02A282E11292B356848DD84F /* Pods-SmartScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		02C8D147AC084F79CC1EA419 /* Pods-SmartScannerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartScannerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1202E2A31423A8BB5388CDC5 /* Pods-SmartScannerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartScannerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		121B703DCA3E82175D6297E5 /* Pods-SmartScannerTests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartScannerTests-environment.h"; sourceTree = "<group>"; };
+		1DA62CE18E21ED3793516F0A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1E0527EEFCFAAF39677D6C8C /* Pods-SmartScanner-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartScanner-environment.h"; sourceTree = "<group>"; };
+		20E9A3E4D49FDBBA3AF0BF25 /* Pods-SmartScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartScannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		27712E449F5497861F6936DF /* Pods-SmartScannerTests-KIFastQR-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScannerTests-KIFastQR-Private.xcconfig"; path = "../Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR-Private.xcconfig"; sourceTree = "<group>"; };
+		2A9FC14147D19D450CD4489F /* Pods-SmartScanner-KIFastQR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartScanner-KIFastQR.modulemap"; sourceTree = "<group>"; };
+		2B51BC00959410172F015434 /* Pods-SmartScannerTests-KIFastQR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Pods-SmartScannerTests-KIFastQR.modulemap"; path = "../Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR.modulemap"; sourceTree = "<group>"; };
+		30493275EA7188B606E276F1 /* Pods-SmartScanner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartScanner-umbrella.h"; sourceTree = "<group>"; };
+		332E63CE071609FDF6D75852 /* Pods-SmartScanner-KIFastQR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartScanner-KIFastQR.xcconfig"; sourceTree = "<group>"; };
+		369256570481D80A3492D813 /* Pods-SmartScannerTests-KIFastQR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-SmartScannerTests-KIFastQR-dummy.m"; path = "../Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR-dummy.m"; sourceTree = "<group>"; };
+		3CAD43237166E7B2450ABC54 /* Pods-SmartScanner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartScanner-frameworks.sh"; sourceTree = "<group>"; };
+		3DA4FBB1F6141749F5F49873 /* Pods-SmartScanner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartScanner-dummy.m"; sourceTree = "<group>"; };
+		482EDFFD143EA21F127D30C1 /* KIFastQRCaptureView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KIFastQRCaptureView.m; path = FastQR/Classes/KIFastQRCaptureView.m; sourceTree = "<group>"; };
+		487FBC090C83ACA9209901BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CBDFA07F7C794ED602FA913 /* Pods_SmartScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DC9339679E3790AD92617C1 /* KIFastQRCaptureView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KIFastQRCaptureView.h; path = FastQR/Classes/KIFastQRCaptureView.h; sourceTree = "<group>"; };
+		5158700847B554150E1F347A /* Pods-SmartScannerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartScannerTests-frameworks.sh"; sourceTree = "<group>"; };
+		619609D5B52CD4BDD24399EA /* KIFastQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KIFastQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A6A475EB25E0E3FAE8B11C /* Pods-SmartScanner-KIFastQR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartScanner-KIFastQR-prefix.pch"; sourceTree = "<group>"; };
+		6AD0EC48E8D0D54EBD1DFB50 /* Pods-SmartScannerTests-KIFastQR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SmartScannerTests-KIFastQR-umbrella.h"; path = "../Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR-umbrella.h"; sourceTree = "<group>"; };
+		6F6549E4B287FDC6372F1DB2 /* Pods-SmartScanner-KIFastQR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartScanner-KIFastQR-umbrella.h"; sourceTree = "<group>"; };
+		6F87018F707608B80135ADB6 /* Pods-SmartScannerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartScannerTests-resources.sh"; sourceTree = "<group>"; };
+		77B84ECE10D7AF16047D3449 /* Pods-SmartScannerTests-KIFastQR.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScannerTests-KIFastQR.xcconfig"; path = "../Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR.xcconfig"; sourceTree = "<group>"; };
+		7B246746A5047072CCFC5BBE /* Pods-SmartScannerTests-KIFastQR-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-SmartScannerTests-KIFastQR-prefix.pch"; path = "../Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR-prefix.pch"; sourceTree = "<group>"; };
+		7C3E43E481CC6D091521D6E4 /* Pods-SmartScanner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartScanner-resources.sh"; sourceTree = "<group>"; };
+		811EEAE7B0CB5360C6500E05 /* Pods-SmartScanner-KIFastQR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartScanner-KIFastQR-dummy.m"; sourceTree = "<group>"; };
+		84AED536CFA4562A34F84C0F /* Pods_SmartScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		895FCB31804EE24013A6F1B4 /* KIFastQR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KIFastQR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D90C5A87226B0702C12BAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B0683CFD35651D8A3A4576A /* Pods-SmartScanner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartScanner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		908A7BA5EC70A042BA99DC4C /* Pods-SmartScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		9904A0E04273A5671A22D196 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Pods-SmartScannerTests-KIFastQR/Info.plist"; sourceTree = "<group>"; };
+		AC1C4AA03EBB65852C5A6189 /* Pods-SmartScanner-KIFastQR-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartScanner-KIFastQR-Private.xcconfig"; sourceTree = "<group>"; };
+		BD8F97052FE91DFC96CEF810 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC41C0CC90E178D93BFF509 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D51E921529C79BA5C98F747F /* Pods-SmartScanner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartScanner-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7930F89CE2944B79AA85F18 /* Pods-SmartScannerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartScannerTests-dummy.m"; sourceTree = "<group>"; };
+		DEE338CDC2AE76CBEDDA43F7 /* Pods-SmartScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartScanner.release.xcconfig"; sourceTree = "<group>"; };
+		EDA96C98E59754F69EB4DFAB /* Pods-SmartScannerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartScannerTests-umbrella.h"; sourceTree = "<group>"; };
+		F5E13A6E93CDF27925F38A71 /* Pods-SmartScanner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartScanner.modulemap"; sourceTree = "<group>"; };
+		F6F27B2F673633D7903F0F47 /* Pods-SmartScannerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartScannerTests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1B92845753C8C964CC0A94BD /* Frameworks */ = {
+		1EBED46C28BFD564CEC8A123 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2B869AD88C3B3B6781619A /* Foundation.framework in Frameworks */,
+				7EE7853BA2CF50B783D70C6E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		423E3D46999B28E35CC23A31 /* Frameworks */ = {
+		356E36280C0B3DBDA7FFA95F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5B415D299FBBDC74FAC9155 /* Foundation.framework in Frameworks */,
+				B10D07A957A9872CF9D71C3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8B880C11B07625847017881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8AEDD840F0F7D25ACDF17F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1146458D161645D4C3EEA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74BF6BE2B6AFE33BF1DD0C7B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		061204C017940611FB3313CF /* iOS */ = {
+		1FD7E3571E759342B1473C87 /* Pods-SmartScanner */ = {
 			isa = PBXGroup;
 			children = (
-				59F36933F738F06AC3B0942A /* Foundation.framework */,
+				BD8F97052FE91DFC96CEF810 /* Info.plist */,
+				F5E13A6E93CDF27925F38A71 /* Pods-SmartScanner.modulemap */,
+				8B0683CFD35651D8A3A4576A /* Pods-SmartScanner-acknowledgements.markdown */,
+				D51E921529C79BA5C98F747F /* Pods-SmartScanner-acknowledgements.plist */,
+				3DA4FBB1F6141749F5F49873 /* Pods-SmartScanner-dummy.m */,
+				1E0527EEFCFAAF39677D6C8C /* Pods-SmartScanner-environment.h */,
+				3CAD43237166E7B2450ABC54 /* Pods-SmartScanner-frameworks.sh */,
+				7C3E43E481CC6D091521D6E4 /* Pods-SmartScanner-resources.sh */,
+				30493275EA7188B606E276F1 /* Pods-SmartScanner-umbrella.h */,
+				908A7BA5EC70A042BA99DC4C /* Pods-SmartScanner.debug.xcconfig */,
+				DEE338CDC2AE76CBEDDA43F7 /* Pods-SmartScanner.release.xcconfig */,
+			);
+			name = "Pods-SmartScanner";
+			path = "Target Support Files/Pods-SmartScanner";
+			sourceTree = "<group>";
+		};
+		25FA63ED87CD7F90F9CAAC4C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89D90C5A87226B0702C12BAF /* Info.plist */,
+				9904A0E04273A5671A22D196 /* Info.plist */,
+				2A9FC14147D19D450CD4489F /* Pods-SmartScanner-KIFastQR.modulemap */,
+				332E63CE071609FDF6D75852 /* Pods-SmartScanner-KIFastQR.xcconfig */,
+				AC1C4AA03EBB65852C5A6189 /* Pods-SmartScanner-KIFastQR-Private.xcconfig */,
+				811EEAE7B0CB5360C6500E05 /* Pods-SmartScanner-KIFastQR-dummy.m */,
+				65A6A475EB25E0E3FAE8B11C /* Pods-SmartScanner-KIFastQR-prefix.pch */,
+				6F6549E4B287FDC6372F1DB2 /* Pods-SmartScanner-KIFastQR-umbrella.h */,
+				2B51BC00959410172F015434 /* Pods-SmartScannerTests-KIFastQR.modulemap */,
+				77B84ECE10D7AF16047D3449 /* Pods-SmartScannerTests-KIFastQR.xcconfig */,
+				27712E449F5497861F6936DF /* Pods-SmartScannerTests-KIFastQR-Private.xcconfig */,
+				369256570481D80A3492D813 /* Pods-SmartScannerTests-KIFastQR-dummy.m */,
+				7B246746A5047072CCFC5BBE /* Pods-SmartScannerTests-KIFastQR-prefix.pch */,
+				6AD0EC48E8D0D54EBD1DFB50 /* Pods-SmartScannerTests-KIFastQR-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-SmartScanner-KIFastQR";
+			sourceTree = "<group>";
+		};
+		72E5AC566484B49BF1AFA71C /* Pods-SmartScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				487FBC090C83ACA9209901BA /* Info.plist */,
+				F6F27B2F673633D7903F0F47 /* Pods-SmartScannerTests.modulemap */,
+				1202E2A31423A8BB5388CDC5 /* Pods-SmartScannerTests-acknowledgements.markdown */,
+				02C8D147AC084F79CC1EA419 /* Pods-SmartScannerTests-acknowledgements.plist */,
+				D7930F89CE2944B79AA85F18 /* Pods-SmartScannerTests-dummy.m */,
+				121B703DCA3E82175D6297E5 /* Pods-SmartScannerTests-environment.h */,
+				5158700847B554150E1F347A /* Pods-SmartScannerTests-frameworks.sh */,
+				6F87018F707608B80135ADB6 /* Pods-SmartScannerTests-resources.sh */,
+				EDA96C98E59754F69EB4DFAB /* Pods-SmartScannerTests-umbrella.h */,
+				02A282E11292B356848DD84F /* Pods-SmartScannerTests.debug.xcconfig */,
+				20E9A3E4D49FDBBA3AF0BF25 /* Pods-SmartScannerTests.release.xcconfig */,
+			);
+			name = "Pods-SmartScannerTests";
+			path = "Target Support Files/Pods-SmartScannerTests";
+			sourceTree = "<group>";
+		};
+		83FC883FDBF98000160A0DDF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1DA62CE18E21ED3793516F0A /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		0A0B133FD29BD81FB852A85A /* Pods */ = {
+		91E6044C500C44AABCEFA1A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2DCDE29FC8F0C05001F9BE81 /* KIFastQR */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		2DCDE29FC8F0C05001F9BE81 /* KIFastQR */ = {
-			isa = PBXGroup;
-			children = (
-				4735F924D000FD74E45C0830 /* KIFastQRCaptureView.h */,
-				5A99EA38F7521E4D1C3ED6BE /* KIFastQRCaptureView.m */,
-				CE1C94FFB3F6D3CCD8B4E836 /* Support Files */,
-			);
-			path = KIFastQR;
-			sourceTree = "<group>";
-		};
-		30CBDB4C045F93F06A481582 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				061204C017940611FB3313CF /* iOS */,
+				83FC883FDBF98000160A0DDF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A8A7DAAA696EBD6F65230E0F /* Targets Support Files */ = {
+		A417E0898D916D643B3FC2BD /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E67D0F803D1374F0BCA0053D /* Pods */,
+				1FD7E3571E759342B1473C87 /* Pods-SmartScanner */,
+				72E5AC566484B49BF1AFA71C /* Pods-SmartScannerTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B70C8577958564BB93F6849E /* Products */ = {
+		AE45268F1503AF02069BE649 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E5AD7E93E88DB8297CD224A /* libPods.a */,
-				626E459386DC5B772F16372B /* libPods-KIFastQR.a */,
+				895FCB31804EE24013A6F1B4 /* KIFastQR.framework */,
+				619609D5B52CD4BDD24399EA /* KIFastQR.framework */,
+				4CBDFA07F7C794ED602FA913 /* Pods_SmartScanner.framework */,
+				84AED536CFA4562A34F84C0F /* Pods_SmartScannerTests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE1C94FFB3F6D3CCD8B4E836 /* Support Files */ = {
+		BFC99AE2C12E08C4872E26D1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6AC860FEC50BB00C59ABA578 /* Pods-KIFastQR.xcconfig */,
-				995506E731D09CC8FA36AF44 /* Pods-KIFastQR-Private.xcconfig */,
-				4B73036CBFFF0C639A9900D6 /* Pods-KIFastQR-dummy.m */,
-				08067FD9FD27694147F70AAB /* Pods-KIFastQR-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-KIFastQR";
-			sourceTree = "<group>";
-		};
-		E67D0F803D1374F0BCA0053D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				08F381F0536AC7013DA7F91A /* Pods-acknowledgements.markdown */,
-				7A6ACB1B35413650D1FE0852 /* Pods-acknowledgements.plist */,
-				1898EC9AD5525F291347CEDC /* Pods-dummy.m */,
-				22F224BF6FB9FD4A6EE1FE6F /* Pods-environment.h */,
-				E129D65ECA8724467B6A23EF /* Pods-resources.sh */,
-				BBDE73FB65C91586AC762A79 /* Pods.debug.xcconfig */,
-				1D4D788124DCAE52BC64BF21 /* Pods.release.xcconfig */,
+				DCFC41CC13595ABED3F84335 /* KIFastQR */,
 			);
 			name = Pods;
-			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		F644462E336560A699B2F9BC = {
+		DBC46B41771D15F20C2A6BB3 = {
 			isa = PBXGroup;
 			children = (
-				7C4A5409A9A8BE5B43A40161 /* Podfile */,
-				30CBDB4C045F93F06A481582 /* Frameworks */,
-				0A0B133FD29BD81FB852A85A /* Pods */,
-				B70C8577958564BB93F6849E /* Products */,
-				A8A7DAAA696EBD6F65230E0F /* Targets Support Files */,
+				CEC41C0CC90E178D93BFF509 /* Podfile */,
+				91E6044C500C44AABCEFA1A1 /* Frameworks */,
+				BFC99AE2C12E08C4872E26D1 /* Pods */,
+				AE45268F1503AF02069BE649 /* Products */,
+				A417E0898D916D643B3FC2BD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DCFC41CC13595ABED3F84335 /* KIFastQR */ = {
+			isa = PBXGroup;
+			children = (
+				4DC9339679E3790AD92617C1 /* KIFastQRCaptureView.h */,
+				482EDFFD143EA21F127D30C1 /* KIFastQRCaptureView.m */,
+				25FA63ED87CD7F90F9CAAC4C /* Support Files */,
+			);
+			path = KIFastQR;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B47F907075767EBD95EF0B11 /* Headers */ = {
+		C118B8A31D18E9B3C961915C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A484DF83435478DF604FA0FB /* KIFastQRCaptureView.h in Headers */,
+				7644315A2CB017662D6A31B2 /* KIFastQRCaptureView.h in Headers */,
+				22B1C3A0966619E82AE22309 /* Pods-SmartScannerTests-KIFastQR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5711053BEC6870EFC44A798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB4506B88D2E12AF3FEB9D37 /* Pods-SmartScannerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9654CD87024D0703C86BF33 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D653574AE2D2C3BABD0C72A8 /* KIFastQRCaptureView.h in Headers */,
+				66F6DCCFD49D1C619EE5E3C2 /* Pods-SmartScanner-KIFastQR-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98444DAC5EE1D840898C349 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73F980A205338665B32C0DC2 /* Pods-SmartScanner-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		257DB91840E954443476B1AE /* Pods-KIFastQR */ = {
+		0F411669C015E1E95A7C107B /* Pods-SmartScanner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1CD03E211527D43683418530 /* Build configuration list for PBXNativeTarget "Pods-KIFastQR" */;
+			buildConfigurationList = 0AF8AB41C02ED406950B9B20 /* Build configuration list for PBXNativeTarget "Pods-SmartScanner" */;
 			buildPhases = (
-				3254CA766727C963CB0424FA /* Sources */,
-				1B92845753C8C964CC0A94BD /* Frameworks */,
-				B47F907075767EBD95EF0B11 /* Headers */,
+				D84D000D7F0D6DFCC7F76921 /* Sources */,
+				BA1146458D161645D4C3EEA7 /* Frameworks */,
+				D98444DAC5EE1D840898C349 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D42E86972F2DD5326969E32E /* PBXTargetDependency */,
 			);
-			name = "Pods-KIFastQR";
-			productName = "Pods-KIFastQR";
-			productReference = 626E459386DC5B772F16372B /* libPods-KIFastQR.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "Pods-SmartScanner";
+			productName = "Pods-SmartScanner";
+			productReference = 4CBDFA07F7C794ED602FA913 /* Pods_SmartScanner.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		2E6E6EB59F03AF6D7F5304D5 /* Pods */ = {
+		67109E7D4B764DBA304683F8 /* Pods-SmartScanner-KIFastQR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC412B78F9B15417D086A927 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = C1A0DDC72F2A2A5EE2663815 /* Build configuration list for PBXNativeTarget "Pods-SmartScanner-KIFastQR" */;
 			buildPhases = (
-				70A97DDD59A4409B63B7E7AA /* Sources */,
-				423E3D46999B28E35CC23A31 /* Frameworks */,
+				DAB9F6A808FE426F03BEC93D /* Sources */,
+				B8B880C11B07625847017881 /* Frameworks */,
+				D9654CD87024D0703C86BF33 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F94FC292BEF23B3818F9012 /* PBXTargetDependency */,
 			);
-			name = Pods;
-			productName = Pods;
-			productReference = 9E5AD7E93E88DB8297CD224A /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "Pods-SmartScanner-KIFastQR";
+			productName = "Pods-SmartScanner-KIFastQR";
+			productReference = 895FCB31804EE24013A6F1B4 /* KIFastQR.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		997E9B36E3A6D5BB9037645C /* Pods-SmartScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA29A5F090B3CCA60D52F115 /* Build configuration list for PBXNativeTarget "Pods-SmartScannerTests" */;
+			buildPhases = (
+				569DCB0CDD966D03CBA0E9DC /* Sources */,
+				356E36280C0B3DBDA7FFA95F /* Frameworks */,
+				C5711053BEC6870EFC44A798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C40177253FE9F652B1DCAB91 /* PBXTargetDependency */,
+			);
+			name = "Pods-SmartScannerTests";
+			productName = "Pods-SmartScannerTests";
+			productReference = 84AED536CFA4562A34F84C0F /* Pods_SmartScannerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB5117A632ADE6B44D73AA78 /* Pods-SmartScannerTests-KIFastQR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF3DBAC5A05FD94FFB92815 /* Build configuration list for PBXNativeTarget "Pods-SmartScannerTests-KIFastQR" */;
+			buildPhases = (
+				B4F35D4DC08C35B2526A554E /* Sources */,
+				1EBED46C28BFD564CEC8A123 /* Frameworks */,
+				C118B8A31D18E9B3C961915C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SmartScannerTests-KIFastQR";
+			productName = "Pods-SmartScannerTests-KIFastQR";
+			productReference = 619609D5B52CD4BDD24399EA /* KIFastQR.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9362E131DE1D789E6058621E /* Project object */ = {
+		F16945F5B00240D889E2B0C7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0640;
 			};
-			buildConfigurationList = 5FAA7595318F4CF38FCE13DC /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = BADB67E7FAE8784C0BE6482F /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F644462E336560A699B2F9BC;
-			productRefGroup = B70C8577958564BB93F6849E /* Products */;
+			mainGroup = DBC46B41771D15F20C2A6BB3;
+			productRefGroup = AE45268F1503AF02069BE649 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E6E6EB59F03AF6D7F5304D5 /* Pods */,
-				257DB91840E954443476B1AE /* Pods-KIFastQR */,
+				0F411669C015E1E95A7C107B /* Pods-SmartScanner */,
+				67109E7D4B764DBA304683F8 /* Pods-SmartScanner-KIFastQR */,
+				997E9B36E3A6D5BB9037645C /* Pods-SmartScannerTests */,
+				AB5117A632ADE6B44D73AA78 /* Pods-SmartScannerTests-KIFastQR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3254CA766727C963CB0424FA /* Sources */ = {
+		569DCB0CDD966D03CBA0E9DC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F21F36794CB5F28D1E1C6303 /* KIFastQRCaptureView.m in Sources */,
-				CC721B6D6AB5B9C8BCC230F4 /* Pods-KIFastQR-dummy.m in Sources */,
+				78D97BB388B50BA984ED2278 /* Pods-SmartScannerTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		70A97DDD59A4409B63B7E7AA /* Sources */ = {
+		B4F35D4DC08C35B2526A554E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1909E9C95E7DA222291ED1 /* Pods-dummy.m in Sources */,
+				E21DF4C465CCA748FAD44AB4 /* KIFastQRCaptureView.m in Sources */,
+				782CFB0A420F094510DC1326 /* Pods-SmartScannerTests-KIFastQR-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84D000D7F0D6DFCC7F76921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274B054CC999F6498D87DD31 /* Pods-SmartScanner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB9F6A808FE426F03BEC93D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486E8FD72F5C7B534D8D7CFF /* KIFastQRCaptureView.m in Sources */,
+				E66418BD3A7D911D28CD75D3 /* Pods-SmartScanner-KIFastQR-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1F94FC292BEF23B3818F9012 /* PBXTargetDependency */ = {
+		C40177253FE9F652B1DCAB91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-KIFastQR";
-			target = 257DB91840E954443476B1AE /* Pods-KIFastQR */;
-			targetProxy = 7688B80E8CFEF0DBEA8B19C2 /* PBXContainerItemProxy */;
+			name = "Pods-SmartScannerTests-KIFastQR";
+			target = AB5117A632ADE6B44D73AA78 /* Pods-SmartScannerTests-KIFastQR */;
+			targetProxy = 3DCA8FDFB21328F17638DA65 /* PBXContainerItemProxy */;
+		};
+		D42E86972F2DD5326969E32E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SmartScanner-KIFastQR";
+			target = 67109E7D4B764DBA304683F8 /* Pods-SmartScanner-KIFastQR */;
+			targetProxy = 47FB8D3026A8F1E505E80C2E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1443743CB03200E960C7D10C /* Debug */ = {
+		0CAC9750916CEEE6839B09AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEE338CDC2AE76CBEDDA43F7 /* Pods-SmartScanner.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScanner/Pods-SmartScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3188766065E99762F6780390 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27712E449F5497861F6936DF /* Pods-SmartScannerTests-KIFastQR-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScannerTests-KIFastQR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KIFastQR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E9022B1E5768EC19931E3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1C4AA03EBB65852C5A6189 /* Pods-SmartScanner-KIFastQR-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartScanner-KIFastQR/Pods-SmartScanner-KIFastQR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScanner-KIFastQR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScanner-KIFastQR/Pods-SmartScanner-KIFastQR.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = KIFastQR;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57CAD003BEEEA2D7C59C3CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A282E11292B356848DD84F /* Pods-SmartScannerTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartScannerTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		629AC252E79741B5BE33BBC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 908A7BA5EC70A042BA99DC4C /* Pods-SmartScanner.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScanner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScanner/Pods-SmartScanner.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartScanner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		77B9832118F48DB6AA2B79FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,29 +615,43 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		4D9025D0449216E33EEC22DD /* Debug */ = {
+		CECD377E65149EF956C1EBD4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 995506E731D09CC8FA36AF44 /* Pods-KIFastQR-Private.xcconfig */;
+			baseConfigurationReference = 20E9A3E4D49FDBBA3AF0BF25 /* Pods-SmartScannerTests.release.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-KIFastQR/Pods-KIFastQR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScannerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartScannerTests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		5649B1C343CB5C8EBDEB952A /* Release */ = {
+		D9E983A1CAB7EBA572E61204 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -341,91 +679,117 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6BA5BAB60B7EE2EFC120853A /* Release */ = {
+		FAE296672608A997EF78E01E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D4D788124DCAE52BC64BF21 /* Pods.release.xcconfig */;
+			baseConfigurationReference = AC1C4AA03EBB65852C5A6189 /* Pods-SmartScanner-KIFastQR-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartScanner-KIFastQR/Pods-SmartScanner-KIFastQR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScanner-KIFastQR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScanner-KIFastQR/Pods-SmartScanner-KIFastQR.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KIFastQR;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		7E63C2B4AA7C98471187CBC4 /* Release */ = {
+		FEAEB66D909F52E623927539 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 995506E731D09CC8FA36AF44 /* Pods-KIFastQR-Private.xcconfig */;
+			baseConfigurationReference = 27712E449F5497861F6936DF /* Pods-SmartScannerTests-KIFastQR-Private.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-KIFastQR/Pods-KIFastQR-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartScannerTests-KIFastQR/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartScannerTests-KIFastQR/Pods-SmartScannerTests-KIFastQR.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = KIFastQR;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		9F670A0802C0DF6DDE6CE08E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBDE73FB65C91586AC762A79 /* Pods.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1CD03E211527D43683418530 /* Build configuration list for PBXNativeTarget "Pods-KIFastQR" */ = {
+		0AF8AB41C02ED406950B9B20 /* Build configuration list for PBXNativeTarget "Pods-SmartScanner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D9025D0449216E33EEC22DD /* Debug */,
-				7E63C2B4AA7C98471187CBC4 /* Release */,
+				629AC252E79741B5BE33BBC3 /* Debug */,
+				0CAC9750916CEEE6839B09AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5FAA7595318F4CF38FCE13DC /* Build configuration list for PBXProject "Pods" */ = {
+		BADB67E7FAE8784C0BE6482F /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1443743CB03200E960C7D10C /* Debug */,
-				5649B1C343CB5C8EBDEB952A /* Release */,
+				77B9832118F48DB6AA2B79FA /* Debug */,
+				D9E983A1CAB7EBA572E61204 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DC412B78F9B15417D086A927 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		C1A0DDC72F2A2A5EE2663815 /* Build configuration list for PBXNativeTarget "Pods-SmartScanner-KIFastQR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9F670A0802C0DF6DDE6CE08E /* Debug */,
-				6BA5BAB60B7EE2EFC120853A /* Release */,
+				3E9022B1E5768EC19931E3EE /* Debug */,
+				FAE296672608A997EF78E01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF3DBAC5A05FD94FFB92815 /* Build configuration list for PBXNativeTarget "Pods-SmartScannerTests-KIFastQR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3188766065E99762F6780390 /* Debug */,
+				FEAEB66D909F52E623927539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA29A5F090B3CCA60D52F115 /* Build configuration list for PBXNativeTarget "Pods-SmartScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CAD003BEEEA2D7C59C3CA8 /* Debug */,
+				CECD377E65149EF956C1EBD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9362E131DE1D789E6058621E /* Project object */;
+	rootObject = F16945F5B00240D889E2B0C7 /* Project object */;
 }
