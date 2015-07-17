@@ -1,0 +1,6 @@
+framework module Pods_SmartScannerTests {
+  umbrella header "Pods-SmartScannerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

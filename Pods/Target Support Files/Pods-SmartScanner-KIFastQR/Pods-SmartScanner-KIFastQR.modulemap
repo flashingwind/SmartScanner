@@ -1,0 +1,6 @@
+framework module KIFastQR {
+  umbrella header "Pods-SmartScanner-KIFastQR-umbrella.h"
+
+  export *
+  module * { export * }
+}
