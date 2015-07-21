@@ -90,7 +90,9 @@
     dispatch_queue_t dispatchQueue;
     dispatchQueue = dispatch_queue_create("KIFastQRCapture", NULL);
     [output setMetadataObjectsDelegate:self queue:dispatchQueue];
-    [output setMetadataObjectTypes:@[
+
+	NSLog(@"%@", [output availableMetadataObjectTypes]);
+	[output setMetadataObjectTypes:@[
 									 AVMetadataObjectTypeQRCode,		//QRコード
 									 AVMetadataObjectTypeUPCECode,		//UPC-E
 									 AVMetadataObjectTypeCode39Code,	//Code 39
@@ -100,10 +102,10 @@
 									 AVMetadataObjectTypeCode93Code,	//Code 93
 									 AVMetadataObjectTypeCode128Code,	//Code 128
 									 AVMetadataObjectTypePDF417Code,	//PDF417
-									 AVMetadataObjectTypeAztecCode,		//Aztec code
-									 AVMetadataObjectTypeFace,			//(参考)人の顔
+									 AVMetadataObjectTypeAztecCode		//Aztec code
+									 //AVMetadataObjectTypeFace,			//(参考)人の顔
 									 ]];
-    
+
     return output;
 }
 
@@ -114,20 +116,23 @@
 }
 
 - (void)didGetQRCaptureResult:(NSString *)result {
-    if ([_formerResult isEqualToString:result]) {return;}
-    _formerResult = result;
-    
-    [_delegate fastQRView:self captureOutput:result];
+    if ([_formerResult isEqualToString:result]) {
+		return;
+	} else {
+		_formerResult = result;
+		[_delegate fastQRView:self captureOutput:result];
+	}
 }
 
 # pragma mark - AVCaptureMetadataOutputObjectsDelegate
 
 -(void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
     if (metadataObjects != nil && [metadataObjects count] > 0 ) {
-        AVMetadataMachineReadableCodeObject *meta = metadataObjects[0];
-        if ([[meta type] isEqualToString:AVMetadataObjectTypeQRCode]) {
-            [self performSelectorOnMainThread:@selector(didGetQRCaptureResult:) withObject:[meta stringValue] waitUntilDone:NO];
+		NSString *str;
+		for (AVMetadataMachineReadableCodeObject *meta in metadataObjects) {
+			str = [NSString stringWithFormat: @"(%@)%@\n", [meta type], [meta stringValue]];
         }
+		[self performSelectorOnMainThread:@selector(didGetQRCaptureResult:) withObject:str waitUntilDone:NO];
     }
 }
 

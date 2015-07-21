@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Camera-->
@@ -17,21 +18,69 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b2q-0c-XFZ" userLabel="View1">
-                                <rect key="frame" x="0.0" y="16" width="600" height="535"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="16" width="600" height="405"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="＋" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZL-TY-6yK">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="17" id="jsX-pN-M3y">
+                                                <variation key="widthClass=compact" constant="30"/>
+                                            </constraint>
+                                            <constraint firstAttribute="height" constant="21" id="zWg-93-rc2">
+                                                <variation key="widthClass=compact" constant="30"/>
+                                            </constraint>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <accessibility key="accessibilityConfiguration" label="View1"/>
+                                <constraints>
+                                    <constraint firstItem="NZL-TY-6yK" firstAttribute="centerX" secondItem="b2q-0c-XFZ" secondAttribute="centerX" id="Vld-9z-rd2"/>
+                                    <constraint firstItem="NZL-TY-6yK" firstAttribute="centerY" secondItem="b2q-0c-XFZ" secondAttribute="centerY" id="dAh-iK-L62"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="NZL-TY-6yK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="NZL-TY-6yK"/>
+                                    </mask>
+                                </variation>
                             </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceHorizontal="YES" keyboardDismissMode="interactive" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ekn-7Z-2jG">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="ekn-7Z-2jG" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="393" id="DWR-8w-YQY"/>
+                            <constraint firstItem="ekn-7Z-2jG" firstAttribute="top" secondItem="b2q-0c-XFZ" secondAttribute="bottom" constant="2" id="Gag-AH-8YB"/>
                             <constraint firstAttribute="trailing" secondItem="b2q-0c-XFZ" secondAttribute="trailing" id="NCj-TZ-JAt"/>
                             <constraint firstItem="b2q-0c-XFZ" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="W6S-3y-U1R"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="b2q-0c-XFZ" secondAttribute="bottom" constant="130" id="WvE-OP-o7K"/>
+                            <constraint firstItem="ekn-7Z-2jG" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="Yeq-Ns-kkm"/>
+                            <constraint firstItem="ekn-7Z-2jG" firstAttribute="bottom" secondItem="4ug-Mw-9AY" secondAttribute="top" id="a1H-vZ-KrW"/>
                             <constraint firstItem="b2q-0c-XFZ" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" constant="16" id="bpt-7X-hvq"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="b2q-0c-XFZ" secondAttribute="bottom" id="mY5-e5-a3V"/>
+                            <constraint firstItem="ekn-7Z-2jG" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="zzw-fb-TY9"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="DWR-8w-YQY"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" title="スキャン" image="first" id="acW-dT-cKf"/>
                     <connections>
+                        <outlet property="dataView" destination="ekn-7Z-2jG" id="CqS-D4-OtH"/>
                         <segue destination="qZY-i3-1vB" kind="show" identifier="CameraToJumperSegue" id="8Dq-4p-NK0"/>
                     </connections>
                 </viewController>

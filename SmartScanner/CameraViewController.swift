@@ -10,6 +10,7 @@ import UIKit
 import KIFastQR
 
 class CameraViewController: UIViewController, KIFastQRCaptureDelegate {
+	@IBOutlet weak var dataView: UITextView!
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -18,6 +19,15 @@ class CameraViewController: UIViewController, KIFastQRCaptureDelegate {
 		fastQR.startCaptureWithDelegate(self)
 		self.view.addSubview(fastQR)
 		self.view.bringSubviewToFront(fastQR)
+		self.view.bringSubviewToFront(dataView)
+
+		self.dataView.text = ""
+		for t in AVCaptureMetadataOutput().availableMetadataObjectTypes {
+			self.dataView.text = self.dataView.text + "\n" + t.name
+		}
+		if AVCaptureMetadataOutput().availableMetadataObjectTypes.count == 0 {
+			self.dataView.text = self.dataView.text + "\n(none)"
+		}
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -28,6 +38,7 @@ class CameraViewController: UIViewController, KIFastQRCaptureDelegate {
 	//- (void)fastQRView:(UIView *)fastQRView captureOutput:(NSString *)obtainedString;
 	func fastQRView(fastQRView: UIView!, captureOutput obtainedString: String!) -> Void {
 		NSLog("%@", obtainedString);
+		self.dataView.text = self.dataView.text + "\nRESULT: " + obtainedString
 		(fastQRView as! KIFastQRCaptureView).stopCapture()
 	}
 }
