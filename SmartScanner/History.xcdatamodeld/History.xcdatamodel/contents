@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="History" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="update" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="JumpCondition" syncable="YES">
+        <attribute name="amazonCat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="condID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="includesEmail" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="includesNumber" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="includesOtherString" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="includesString" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="includesURL" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isAvailable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="numberOfDigits" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="update" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="History" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="JumpCondition" positionX="-63" positionY="0" width="128" height="225"/>
+    </elements>
+</model>

@@ -8,15 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		381F0E15DF11A8704930D163 /* Pods_SmartScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		81561E1046BEC9EB3A98E98E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38405DD65B101FE80A7A0AA /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DC4CF6C3533A3B58141957AA /* Pods_SmartScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DCAF2BDB1B54FD51001B0324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAF2BD91B54FD51001B0324 /* Main.storyboard */; };
 		DCBB5B801B53B30300A6E201 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCBB5B7F1B53B30300A6E201 /* Podfile */; };
+		DCE953461B627DDB001EC886 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE953451B627DDB001EC886 /* libsqlite3.dylib */; };
+		DCE953AD1B628B5B001EC886 /* History.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE953AB1B628B5B001EC886 /* History.xcdatamodeld */; };
 		DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */; };
 		DCEACA5A1B52DE9E002D78B2 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA591B52DE9E002D78B2 /* CameraViewController.swift */; };
 		DCEACA5C1B52DE9E002D78B2 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA5B1B52DE9E002D78B2 /* HistoryViewController.swift */; };
 		DCEACA611B52DE9E002D78B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEACA601B52DE9E002D78B2 /* Images.xcassets */; };
 		DCEACA641B52DE9E002D78B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */; };
 		DCEACA701B52DE9E002D78B2 /* SmartScannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA6F1B52DE9E002D78B2 /* SmartScannerTests.swift */; };
+		DCEB169E1B5E5A7300AB5E6D /* JumperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEB169D1B5E5A7300AB5E6D /* JumperViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +37,14 @@
 		0EB1E4F560BA9E4610120D83 /* Pods-SmartScannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScannerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		12922A84492DB45242D9B336 /* Pods-SmartScannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScannerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScannerTests/Pods-SmartScannerTests.release.xcconfig"; sourceTree = "<group>"; };
 		40BE4E7C006E5A82AA91A86C /* Pods-SmartScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner.release.xcconfig"; sourceTree = "<group>"; };
-		4F6A180DD0FD40B8D67B26D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		980F28A995A52899806EC837 /* Pods-SmartScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCAF2BDC1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCAF2BDD1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DCBB5B7F1B53B30300A6E201 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCE953451B627DDB001EC886 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DCE953AC1B628B5B001EC886 /* History.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = History.xcdatamodel; sourceTree = "<group>"; };
 		DCEACA521B52DE9E002D78B2 /* SmartScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEACA561B52DE9E002D78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,8 @@
 		DCEACA691B52DE9E002D78B2 /* SmartScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEACA6E1B52DE9E002D78B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCEACA6F1B52DE9E002D78B2 /* SmartScannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartScannerTests.swift; sourceTree = "<group>"; };
+		DCEB169D1B5E5A7300AB5E6D /* JumperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumperViewController.swift; sourceTree = "<group>"; };
+		F38405DD65B101FE80A7A0AA /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE953461B627DDB001EC886 /* libsqlite3.dylib in Frameworks */,
 				381F0E15DF11A8704930D163 /* Pods_SmartScanner.framework in Frameworks */,
+				81561E1046BEC9EB3A98E98E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,9 +94,10 @@
 		92DBEA48310F4E15C080E7FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4F6A180DD0FD40B8D67B26D7 /* libPods.a */,
+				DCE953451B627DDB001EC886 /* libsqlite3.dylib */,
 				85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */,
 				AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */,
+				F38405DD65B101FE80A7A0AA /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,9 +129,11 @@
 				DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */,
 				DCEACA591B52DE9E002D78B2 /* CameraViewController.swift */,
 				DCEACA5B1B52DE9E002D78B2 /* HistoryViewController.swift */,
+				DCEB169D1B5E5A7300AB5E6D /* JumperViewController.swift */,
 				DCEACA601B52DE9E002D78B2 /* Images.xcassets */,
 				DCAF2BD91B54FD51001B0324 /* Main.storyboard */,
 				DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */,
+				DCE953AB1B628B5B001EC886 /* History.xcdatamodeld */,
 				DCEACA551B52DE9E002D78B2 /* Supporting Files */,
 			);
 			path = SmartScanner;
@@ -268,7 +280,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4FB963EA35CF05ACE42910E4 /* Copy Pods Resources */ = {
@@ -283,7 +295,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		59CDCB8281AA44026896882F /* Check Pods Manifest.lock */ = {
@@ -354,8 +366,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCEACA5C1B52DE9E002D78B2 /* HistoryViewController.swift in Sources */,
+				DCE953AD1B628B5B001EC886 /* History.xcdatamodeld in Sources */,
 				DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */,
 				DCEACA5A1B52DE9E002D78B2 /* CameraViewController.swift in Sources */,
+				DCEB169E1B5E5A7300AB5E6D /* JumperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,6 +596,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCE953AB1B628B5B001EC886 /* History.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCE953AC1B628B5B001EC886 /* History.xcdatamodel */,
+			);
+			currentVersion = DCE953AC1B628B5B001EC886 /* History.xcdatamodel */;
+			path = History.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DCEACA4A1B52DE9E002D78B2 /* Project object */;
 }

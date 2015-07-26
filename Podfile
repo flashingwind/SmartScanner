@@ -3,10 +3,11 @@ platform :ios, '8.4'
 
 use_frameworks!
 
+pod 'FMDB'
+pod 'KIFastQR'
+
 target 'SmartScanner' do
-	pod 'KIFastQR'
 end
 
 target 'SmartScannerTests' do
-	pod 'KIFastQR'
 end

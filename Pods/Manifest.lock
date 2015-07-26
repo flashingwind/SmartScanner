@@ -1,10 +1,17 @@
 PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/standard (2.5):
+    - FMDB/common
   - KIFastQR (0.3.0)
 
 DEPENDENCIES:
+  - FMDB
   - KIFastQR
 
 SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
   KIFastQR: ea5d9859ef2492125b3933a1c2f20466a452d314
 
-COCOAPODS: 0.37.2
+COCOAPODS: 0.38.0

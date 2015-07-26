@@ -91,7 +91,7 @@
     dispatchQueue = dispatch_queue_create("KIFastQRCapture", NULL);
     [output setMetadataObjectsDelegate:self queue:dispatchQueue];
 
-	NSLog(@"%@", [output availableMetadataObjectTypes]);
+	//NSLog(@"%@", [output availableMetadataObjectTypes]);
 	[output setMetadataObjectTypes:@[
 									 AVMetadataObjectTypeQRCode,		//QRコード
 									 AVMetadataObjectTypeUPCECode,		//UPC-E
