@@ -13,9 +13,12 @@ class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 	@IBOutlet weak var tableView: UITableView!
 
+	var historySet: HistoryModel = HistoryModel()
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+
+		//self.historySet = HistoryModel()
 	}
 
 	override func didReceiveMemoryWarning() {
@@ -33,33 +36,24 @@ class HistoryViewController: UIViewController, UITableViewDelegate, UITableViewD
 
 	// セクションごとの行数
 	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return 1
+		return historySet.items.count
 	}
 
 
-
-	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
-
-		let cell: UITableViewCell = tableView.dequeueReusableCellWithIdentifier("CustomCell", forIndexPath: indexPath) as! UITableViewCell
-
-		return cell
-	}
-
-
-
-/*
-	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) -> Void
+	func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) -> Void
 	{
 		NSLog("Cell[%@] selected", indexPath.row)
 	}
 
-	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
+	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell{
 		var cell = tableView.dequeueReusableCellWithIdentifier("HistoryItemCell") as! UITableViewCell
 
-		cell.textLabel!.text = String(indexPath.row)
+		cell.textLabel!.text = "[\(indexPath.row)]\(self.historySet.items[indexPath.row])"
 
 		return cell
 	}
-*/
+
+
+
 }
 

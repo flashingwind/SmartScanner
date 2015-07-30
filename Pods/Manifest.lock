@@ -1,17 +1,21 @@
 PODS:
-  - FMDB (2.5):
-    - FMDB/standard (= 2.5)
-  - FMDB/common (2.5)
-  - FMDB/standard (2.5):
-    - FMDB/common
   - KIFastQR (0.3.0)
+  - Nimble (1.0.0)
+  - Quick (0.3.1)
+  - Realm (0.94.0):
+    - Realm/Headers (= 0.94.0)
+  - Realm/Headers (0.94.0)
 
 DEPENDENCIES:
-  - FMDB
   - KIFastQR
+  - Nimble (~> 1.0.0)
+  - Quick (~> 0.3.0)
+  - Realm
 
 SPEC CHECKSUMS:
-  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
   KIFastQR: ea5d9859ef2492125b3933a1c2f20466a452d314
+  Nimble: 8bee528e5fcc403653076545db562d2b5db7bb87
+  Quick: 824572d3d198d51e52cf4aa722cebf7e59952a35
+  Realm: a046149653e0ca220b65b5783da907aa5b74d86c
 
-COCOAPODS: 0.38.0
+COCOAPODS: 0.38.2

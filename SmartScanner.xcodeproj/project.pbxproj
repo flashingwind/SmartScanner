@@ -10,8 +10,13 @@
 		381F0E15DF11A8704930D163 /* Pods_SmartScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		81561E1046BEC9EB3A98E98E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F38405DD65B101FE80A7A0AA /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		DC4CF6C3533A3B58141957AA /* Pods_SmartScannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		DCAA1C931B6692490001E660 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCAA1C921B6692490001E660 /* CoreData.framework */; };
+		DCAA1C991B6693410001E660 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA1C981B6693410001E660 /* History.swift */; };
+		DCAA1C9B1B6693550001E660 /* JumpCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA1C9A1B6693550001E660 /* JumpCondition.swift */; };
+		DCAA1C9D1B66A2FC0001E660 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA1C9C1B66A2FC0001E660 /* HistoryModel.swift */; };
 		DCAF2BDB1B54FD51001B0324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAF2BD91B54FD51001B0324 /* Main.storyboard */; };
 		DCBB5B801B53B30300A6E201 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCBB5B7F1B53B30300A6E201 /* Podfile */; };
+		DCD654951B66333100D72D8F /* ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD654941B66333100D72D8F /* ConditionView.swift */; };
 		DCE953461B627DDB001EC886 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE953451B627DDB001EC886 /* libsqlite3.dylib */; };
 		DCE953AD1B628B5B001EC886 /* History.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE953AB1B628B5B001EC886 /* History.xcdatamodeld */; };
 		DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEACA571B52DE9E002D78B2 /* AppDelegate.swift */; };
@@ -40,9 +45,14 @@
 		85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		980F28A995A52899806EC837 /* Pods-SmartScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartScanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartScanner/Pods-SmartScanner.debug.xcconfig"; sourceTree = "<group>"; };
 		AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartScannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCAA1C921B6692490001E660 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DCAA1C981B6693410001E660 /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		DCAA1C9A1B6693550001E660 /* JumpCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JumpCondition.swift; sourceTree = "<group>"; };
+		DCAA1C9C1B66A2FC0001E660 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
 		DCAF2BDC1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCAF2BDD1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DCBB5B7F1B53B30300A6E201 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCD654941B66333100D72D8F /* ConditionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionView.swift; sourceTree = "<group>"; };
 		DCE953451B627DDB001EC886 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DCE953AC1B628B5B001EC886 /* History.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = History.xcdatamodel; sourceTree = "<group>"; };
 		DCEACA521B52DE9E002D78B2 /* SmartScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCAA1C931B6692490001E660 /* CoreData.framework in Frameworks */,
 				DCE953461B627DDB001EC886 /* libsqlite3.dylib in Frameworks */,
 				381F0E15DF11A8704930D163 /* Pods_SmartScanner.framework in Frameworks */,
 				81561E1046BEC9EB3A98E98E /* Pods.framework in Frameworks */,
@@ -94,6 +105,7 @@
 		92DBEA48310F4E15C080E7FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DCAA1C921B6692490001E660 /* CoreData.framework */,
 				DCE953451B627DDB001EC886 /* libsqlite3.dylib */,
 				85BCFCF21E71CF099A31CCED /* Pods_SmartScanner.framework */,
 				AAFA4794DB0D956C7C605C12 /* Pods_SmartScannerTests.framework */,
@@ -130,9 +142,13 @@
 				DCEACA591B52DE9E002D78B2 /* CameraViewController.swift */,
 				DCEACA5B1B52DE9E002D78B2 /* HistoryViewController.swift */,
 				DCEB169D1B5E5A7300AB5E6D /* JumperViewController.swift */,
+				DCD654941B66333100D72D8F /* ConditionView.swift */,
 				DCEACA601B52DE9E002D78B2 /* Images.xcassets */,
 				DCAF2BD91B54FD51001B0324 /* Main.storyboard */,
 				DCEACA621B52DE9E002D78B2 /* LaunchScreen.xib */,
+				DCAA1C9A1B6693550001E660 /* JumpCondition.swift */,
+				DCAA1C981B6693410001E660 /* History.swift */,
+				DCAA1C9C1B66A2FC0001E660 /* HistoryModel.swift */,
 				DCE953AB1B628B5B001EC886 /* History.xcdatamodeld */,
 				DCEACA551B52DE9E002D78B2 /* Supporting Files */,
 			);
@@ -366,9 +382,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCEACA5C1B52DE9E002D78B2 /* HistoryViewController.swift in Sources */,
+				DCAA1C9B1B6693550001E660 /* JumpCondition.swift in Sources */,
+				DCAA1C9D1B66A2FC0001E660 /* HistoryModel.swift in Sources */,
 				DCE953AD1B628B5B001EC886 /* History.xcdatamodeld in Sources */,
+				DCAA1C991B6693410001E660 /* History.swift in Sources */,
 				DCEACA581B52DE9E002D78B2 /* AppDelegate.swift in Sources */,
 				DCEACA5A1B52DE9E002D78B2 /* CameraViewController.swift in Sources */,
+				DCD654951B66333100D72D8F /* ConditionView.swift in Sources */,
 				DCEB169E1B5E5A7300AB5E6D /* JumperViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,93 @@
+
+/* Class = "UILabel"; text = "種類：バーコード/QR・文字・数字桁数・混合"; ObjectID = "0mT-Ge-m5R"; */
+"0mT-Ge-m5R.text" = "種類：バーコード/QR・文字・数字桁数・混合";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "3e6-hB-HKE"; */
+"3e6-hB-HKE.title" = "Title";
+
+/* Class = "UILabel"; text = "読書メーター (Safari)"; ObjectID = "4aa-Kx-2KI"; */
+"4aa-Kx-2KI.text" = "読書メーター (Safari)";
+
+/* Class = "UILabel"; text = "種類：バーコード規格/商品/日本・URL・メール"; ObjectID = "4pN-0j-33K"; */
+"4pN-0j-33K.text" = "種類：バーコード規格/商品/日本・URL・メール";
+
+/* Class = "UILabel"; text = "電話番号、メール、URLを連絡先に追加する"; ObjectID = "6pZ-3f-A6S"; */
+"6pZ-3f-A6S.text" = "電話番号、メール、URLを連絡先に追加する";
+
+/* Class = "UIViewController"; title = "History"; ObjectID = "8rJ-Kc-sve"; */
+"8rJ-Kc-sve.title" = "History";
+
+/* Class = "UIViewController"; title = "Camera"; ObjectID = "9pv-A4-QxB"; */
+"9pv-A4-QxB.title" = "Camera";
+
+/* Class = "UILabel"; text = "XXXXXXXXXXX"; ObjectID = "CyP-IT-y6E"; */
+"CyP-IT-y6E.text" = "XXXXXXXXXXX";
+
+/* Class = "UITableViewSection"; headerTitle = "読み取りデータ"; ObjectID = "Div-T8-WxT"; */
+"Div-T8-WxT.headerTitle" = "読み取りデータ";
+
+/* Class = "UITableViewController"; title = "Condition"; ObjectID = "ESF-Zk-5DW"; */
+"ESF-Zk-5DW.title" = "Condition";
+
+/* Class = "UILabel"; text = "読書の記録や感想を公開"; ObjectID = "Ghy-CD-JZ9"; */
+"Ghy-CD-JZ9.text" = "読書の記録や感想を公開";
+
+/* Class = "UILabel"; text = "コードの種類・桁数などの条件"; ObjectID = "IOW-X9-YH1"; */
+"IOW-X9-YH1.text" = "コードの種類・桁数などの条件";
+
+/* Class = "UIButton"; normalTitle = "Test"; ObjectID = "O6H-xn-wSO"; */
+"O6H-xn-wSO.normalTitle" = "Test";
+
+/* Class = "UITableViewSection"; headerTitle = "ジャンプ先 (タップすると選択したアプリにジャンプします)"; ObjectID = "OKd-QZ-pSx"; */
+"OKd-QZ-pSx.headerTitle" = "ジャンプ先 (タップすると選択したアプリにジャンプします)";
+
+/* Class = "UILabel"; text = "自動ジャンプ：ON"; ObjectID = "RJU-Jb-ieQ"; */
+"RJU-Jb-ieQ.text" = "自動ジャンプ：ON";
+
+/* Class = "UITableViewSection"; headerTitle = "条件 (AND)"; ObjectID = "V0m-8k-h7O"; */
+"V0m-8k-h7O.headerTitle" = "条件 (AND)";
+
+/* Class = "UILabel"; text = "使用されている規格・プロトコルなどの条件"; ObjectID = "Xcp-hq-sMg"; */
+"Xcp-hq-sMg.text" = "使用されている規格・プロトコルなどの条件";
+
+/* Class = "UITabBarItem"; title = "スキャン"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "スキャン";
+
+/* Class = "UILabel"; text = "同条件のバーコードを読み取ると、自動でジャンプします"; ObjectID = "aoY-Ui-cZ9"; */
+"aoY-Ui-cZ9.text" = "同条件のバーコードを読み取ると、自動でジャンプします";
+
+/* Class = "UIView"; accessibilityLabel = "View1"; ObjectID = "b2q-0c-XFZ"; */
+"b2q-0c-XFZ.accessibilityLabel" = "View1";
+
+/* Class = "UILabel"; text = "iPhoneの連絡先"; ObjectID = "bUE-Lu-Oqb"; */
+"bUE-Lu-Oqb.text" = "iPhoneの連絡先";
+
+/* Class = "UITabBarItem"; title = "履歴"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "履歴";
+
+/* Class = "UILabel"; text = "＋"; ObjectID = "ceV-7h-pTR"; */
+"ceV-7h-pTR.text" = "＋";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."; ObjectID = "ekn-7Z-2jG"; */
+"ekn-7Z-2jG.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "hS5-LL-fHI"; */
+"hS5-LL-fHI.title" = "Title";
+
+/* Class = "UILabel"; text = "Amazon.co.jp (Safari)"; ObjectID = "kaQ-iE-uYD"; */
+"kaQ-iE-uYD.text" = "Amazon.co.jp (Safari)";
+
+/* Class = "UILabel"; text = "Amazon：本"; ObjectID = "o16-Cr-eL2"; */
+"o16-Cr-eL2.text" = "Amazon：本";
+
+/* Class = "UITableViewSection"; headerTitle = "設定"; ObjectID = "p3o-V6-DUv"; */
+"p3o-V6-DUv.headerTitle" = "設定";
+
+/* Class = "UITableViewController"; title = "Jump"; ObjectID = "qZY-i3-1vB"; */
+"qZY-i3-1vB.title" = "Jump";
+
+/* Class = "UILabel"; text = "Amazonの商品ページ"; ObjectID = "roh-ig-SGn"; */
+"roh-ig-SGn.text" = "Amazonの商品ページ";
+
+/* Class = "UILabel"; text = "Amazonの登録カテゴリー"; ObjectID = "vUe-dk-A3I"; */
+"vUe-dk-A3I.text" = "Amazonの登録カテゴリー";

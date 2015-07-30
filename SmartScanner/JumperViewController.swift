@@ -27,7 +27,13 @@ class JumperViewController: UITableViewController {
 
 	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) -> Void
 	{
-		NSLog("Cell[%@] selected", indexPath.row)
+		NSLog("Cell[%z] selected", indexPath.row)
+		// TODO 設定値と設定項目を渡す準備をする
+	}
+
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+		NSLog("\(segue.identifier)")
+		// TODO 設定値と設定項目を渡す
 	}
 
 	/*
@@ -37,6 +43,13 @@ class JumperViewController: UITableViewController {
 		return items.count
 	}
 	*/
+
+	@IBAction func jumperViewReturnActionForSegue(segue: UIStoryboardSegue) -> Void {
+		if segue.identifier == "UnwindToJumperViewFromConditionViewSegue" {
+			NSLog("%z is selected",segue.sourceViewController.selectedIndex)
+			// TODO 設定値と設定項目を受け取る
+		}
+	}
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()

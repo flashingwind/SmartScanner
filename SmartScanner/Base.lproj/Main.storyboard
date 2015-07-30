@@ -37,10 +37,16 @@
                                         <nil key="highlightedColor"/>
                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6H-xn-wSO">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O6H-xn-wSO">
                                         <rect key="frame" x="8" y="377" width="30" height="30"/>
-                                        <state key="normal" title="Test">
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Test">
+                                                    <attributes>
+                                                        <font key="NSFont" size="15" name="HelveticaNeue"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                         </state>
                                         <connections>
                                             <action selector="test:" destination="9pv-A4-QxB" eventType="touchUpInside" id="yvf-XN-zre"/>
@@ -96,15 +102,11 @@
                                 <rect key="frame" x="0.0" y="20" width="600" height="531"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HistoryItemCell" id="Gtn-ZN-wap">
-                                        <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="historyCell" id="g4b-9U-llx">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Gtn-ZN-wap" id="qyh-SA-K21">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="g4b-9U-llx" id="IGt-lr-lyO">
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <segue destination="qZY-i3-1vB" kind="presentation" id="aBD-Bu-s5F"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -126,28 +128,25 @@
             </objects>
             <point key="canvasLocation" x="750" y="456"/>
         </scene>
-        <!--Jump to-->
+        <!--Jump-->
         <scene sceneID="Sfo-lR-aM4">
             <objects>
-                <tableViewController title="Jump to" id="qZY-i3-1vB" customClass="JumperViewController" customModule="SmartScanner" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController restorationIdentifier="Jump" storyboardIdentifier="Jump" title="Jump" id="qZY-i3-1vB" customClass="JumperViewController" customModule="SmartScanner" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="DLi-sP-XGb">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" translucent="NO" id="auV-tv-GlZ">
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="g7T-R0-lta">
                             <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <items>
-                                <navigationItem title="ジャンプ先を選択" id="2ui-nn-pep">
-                                    <barButtonItem key="backBarButtonItem" title="戻る" id="S1w-AD-cf5"/>
-                                </navigationItem>
+                                <navigationItem title="条件とジャンプ先選択" id="3e6-hB-HKE"/>
                             </items>
                         </navigationBar>
                         <sections>
                             <tableViewSection headerTitle="読み取りデータ" id="Div-T8-WxT">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="conditions" textLabel="CyP-IT-y6E" detailTextLabel="bYM-my-ncz" style="IBUITableViewCellStyleSubtitle" id="7Tt-tl-cp9">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="data" textLabel="CyP-IT-y6E" detailTextLabel="bYM-my-ncz" style="IBUITableViewCellStyleSubtitle" id="7Tt-tl-cp9">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="7Tt-tl-cp9" id="las-ET-7H4">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -155,13 +154,13 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="XXXXXXXXXXX" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CyP-IT-y6E">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bYM-my-ncz">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -171,7 +170,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="条件 (AND)" id="V0m-8k-h7O">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="conditions" textLabel="0mT-Ge-m5R" detailTextLabel="IOW-X9-YH1" style="IBUITableViewCellStyleSubtitle" id="gp1-l7-oaS">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="condition1" textLabel="0mT-Ge-m5R" detailTextLabel="IOW-X9-YH1" style="IBUITableViewCellStyleSubtitle" id="gp1-l7-oaS">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gp1-l7-oaS" id="BLr-PH-uPB">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -179,19 +178,22 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="種類：バーコード/QR・文字・数字桁数・混合" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0mT-Ge-m5R">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="コードの種類・桁数などの条件" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="IOW-X9-YH1">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ESF-Zk-5DW" kind="showDetail" identifier="ShowOptionsSegue" id="zq5-ud-z0M"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="conditions" textLabel="4pN-0j-33K" detailTextLabel="Xcp-hq-sMg" style="IBUITableViewCellStyleSubtitle" id="ayM-yL-vrm">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="condition2" textLabel="4pN-0j-33K" detailTextLabel="Xcp-hq-sMg" style="IBUITableViewCellStyleSubtitle" id="ayM-yL-vrm">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ayM-yL-vrm" id="I7K-Fo-pVr">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -199,7 +201,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="種類：バーコード規格/商品/日本・URL・メール" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4pN-0j-33K">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -208,7 +210,7 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="使用されている規格・プロトコルなどの条件" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Xcp-hq-sMg">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                     <variation key="widthClass=compact">
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
@@ -217,7 +219,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="conditions" textLabel="o16-Cr-eL2" detailTextLabel="vUe-dk-A3I" style="IBUITableViewCellStyleSubtitle" id="WEQ-of-hhE">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="condition3" textLabel="o16-Cr-eL2" detailTextLabel="vUe-dk-A3I" style="IBUITableViewCellStyleSubtitle" id="WEQ-of-hhE">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WEQ-of-hhE" id="FWO-NR-qrO">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -225,13 +227,13 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Amazon：本" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o16-Cr-eL2">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Amazonの登録カテゴリー" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="vUe-dk-A3I">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -241,7 +243,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="ジャンプ先 (タップすると選択したアプリにジャンプします)" id="OKd-QZ-pSx">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="conditions" textLabel="kaQ-iE-uYD" detailTextLabel="roh-ig-SGn" style="IBUITableViewCellStyleSubtitle" id="gbo-eI-AHg">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="jumpTo1" textLabel="kaQ-iE-uYD" detailTextLabel="roh-ig-SGn" style="IBUITableViewCellStyleSubtitle" id="gbo-eI-AHg">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gbo-eI-AHg" id="Kod-V5-4vG">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -249,19 +251,19 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Amazon.co.jp (Safari)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="kaQ-iE-uYD">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Amazonの商品ページ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="roh-ig-SGn">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="conditions" textLabel="4aa-Kx-2KI" detailTextLabel="Ghy-CD-JZ9" style="IBUITableViewCellStyleSubtitle" id="hYU-Cd-Kky">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="jumpTo2" textLabel="4aa-Kx-2KI" detailTextLabel="Ghy-CD-JZ9" style="IBUITableViewCellStyleSubtitle" id="hYU-Cd-Kky">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hYU-Cd-Kky" id="cZA-Rg-Plz">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -269,19 +271,19 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="読書メーター (Safari)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4aa-Kx-2KI">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="読書の記録や感想を公開" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ghy-CD-JZ9">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="conditions" textLabel="bUE-Lu-Oqb" detailTextLabel="6pZ-3f-A6S" style="IBUITableViewCellStyleSubtitle" id="RdX-7X-qOP">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="jumpTo3" textLabel="bUE-Lu-Oqb" detailTextLabel="6pZ-3f-A6S" style="IBUITableViewCellStyleSubtitle" id="RdX-7X-qOP">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RdX-7X-qOP" id="3gI-r3-cEg">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -289,13 +291,13 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="iPhoneの連絡先" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bUE-Lu-Oqb">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="電話番号、メール、URLを連絡先に追加する" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6pZ-3f-A6S">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -305,7 +307,7 @@
                             </tableViewSection>
                             <tableViewSection headerTitle="設定" id="p3o-V6-DUv">
                                 <cells>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="conditions" textLabel="RJU-Jb-ieQ" detailTextLabel="aoY-Ui-cZ9" style="IBUITableViewCellStyleSubtitle" id="N9F-p5-7wA">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="willSave" textLabel="RJU-Jb-ieQ" detailTextLabel="aoY-Ui-cZ9" style="IBUITableViewCellStyleSubtitle" id="N9F-p5-7wA">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="N9F-p5-7wA" id="myE-nM-zJE">
                                             <autoresizingMask key="autoresizingMask"/>
@@ -313,13 +315,13 @@
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="自動ジャンプ：ON" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="RJU-Jb-ieQ">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="同条件のバーコードを読み取ると、自動でジャンプします" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="aoY-Ui-cZ9">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -347,6 +349,36 @@
             </objects>
             <point key="canvasLocation" x="1614" y="14"/>
         </scene>
+        <!--Condition-->
+        <scene sceneID="LyC-fI-EsK">
+            <objects>
+                <tableViewController restorationIdentifier="Condition" storyboardIdentifier="Condition" title="Condition" id="ESF-Zk-5DW" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qdV-ag-3gO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="conditionOptionCell" id="UcN-l5-aIp">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UcN-l5-aIp" id="Rgt-Gf-FjX">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="4Jg-D3-m85" kind="unwind" identifier="UnwindToJumperViewFromConditionViewSegue" unwindAction="jumperViewReturnActionForSegue:" id="3Bo-Xk-b6x"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="ESF-Zk-5DW" id="aQQ-7K-d57"/>
+                            <outlet property="delegate" destination="ESF-Zk-5DW" id="7ej-eD-9Sd"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nam-NZ-FHr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="4Jg-D3-m85" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="2304" y="14"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -371,7 +403,4 @@
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="uqv-5u-vc7"/>
-    </inferredMetricsTieBreakers>
 </document>

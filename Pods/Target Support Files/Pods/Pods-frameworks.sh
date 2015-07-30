@@ -52,10 +52,10 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods/FMDB.framework'
   install_framework 'Pods/KIFastQR.framework'
+  install_framework 'Pods/Realm.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods/FMDB.framework'
   install_framework 'Pods/KIFastQR.framework'
+  install_framework 'Pods/Realm.framework'
 fi

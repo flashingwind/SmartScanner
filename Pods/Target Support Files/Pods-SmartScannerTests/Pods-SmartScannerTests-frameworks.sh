@@ -52,10 +52,14 @@ code_sign_if_enabled() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework 'Pods-SmartScannerTests/FMDB.framework'
   install_framework 'Pods-SmartScannerTests/KIFastQR.framework'
+  install_framework 'Pods-SmartScannerTests/Realm.framework'
+  install_framework 'Pods-SmartScannerTests/Nimble.framework'
+  install_framework 'Pods-SmartScannerTests/Quick.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework 'Pods-SmartScannerTests/FMDB.framework'
   install_framework 'Pods-SmartScannerTests/KIFastQR.framework'
+  install_framework 'Pods-SmartScannerTests/Realm.framework'
+  install_framework 'Pods-SmartScannerTests/Nimble.framework'
+  install_framework 'Pods-SmartScannerTests/Quick.framework'
 fi
