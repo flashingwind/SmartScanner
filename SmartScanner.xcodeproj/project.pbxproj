@@ -16,6 +16,7 @@
 		DCAA1C9D1B66A2FC0001E660 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAA1C9C1B66A2FC0001E660 /* HistoryModel.swift */; };
 		DCAF2BDB1B54FD51001B0324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCAF2BD91B54FD51001B0324 /* Main.storyboard */; };
 		DCBB5B801B53B30300A6E201 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DCBB5B7F1B53B30300A6E201 /* Podfile */; };
+		DCC333F11B6A95270034DCCA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DCC333F01B6A95270034DCCA /* README.md */; };
 		DCD654951B66333100D72D8F /* ConditionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD654941B66333100D72D8F /* ConditionView.swift */; };
 		DCE953461B627DDB001EC886 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE953451B627DDB001EC886 /* libsqlite3.dylib */; };
 		DCE953AD1B628B5B001EC886 /* History.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCE953AB1B628B5B001EC886 /* History.xcdatamodeld */; };
@@ -52,6 +53,7 @@
 		DCAF2BDC1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCAF2BDD1B54FE28001B0324 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		DCBB5B7F1B53B30300A6E201 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DCC333F01B6A95270034DCCA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DCD654941B66333100D72D8F /* ConditionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionView.swift; sourceTree = "<group>"; };
 		DCE953451B627DDB001EC886 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DCE953AC1B628B5B001EC886 /* History.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = History.xcdatamodel; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		DCEACA491B52DE9E002D78B2 = {
 			isa = PBXGroup;
 			children = (
+				DCC333F01B6A95270034DCCA /* README.md */,
 				DCBB5B7F1B53B30300A6E201 /* Podfile */,
 				DCEACA541B52DE9E002D78B2 /* SmartScanner */,
 				DCEACA6C1B52DE9E002D78B2 /* SmartScannerTests */,
@@ -383,6 +386,7 @@
 			files = (
 				DCEACA5C1B52DE9E002D78B2 /* HistoryViewController.swift in Sources */,
 				DCAA1C9B1B6693550001E660 /* JumpCondition.swift in Sources */,
+				DCC333F11B6A95270034DCCA /* README.md in Sources */,
 				DCAA1C9D1B66A2FC0001E660 /* HistoryModel.swift in Sources */,
 				DCE953AD1B628B5B001EC886 /* History.xcdatamodeld in Sources */,
 				DCAA1C991B6693410001E660 /* History.swift in Sources */,
