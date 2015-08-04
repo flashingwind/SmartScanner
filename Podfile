@@ -4,7 +4,7 @@ platform :ios, '8.4'
 use_frameworks!
 
 pod 'KIFastQR'
-pod 'Realm'
+pod 'RealmSwift'
 
 target 'SmartScanner' do
 end
