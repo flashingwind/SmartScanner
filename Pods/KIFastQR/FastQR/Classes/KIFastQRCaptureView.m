@@ -115,24 +115,31 @@
     return connection;
 }
 
-- (void)didGetQRCaptureResult:(NSString *)result {
-    if ([_formerResult isEqualToString:result]) {
-		return;
-	} else {
-		_formerResult = result;
-		[_delegate fastQRView:self captureOutput:result];
+- (void)didGetQRCaptureResult: (NSArray *)metadataObjects {
+	NSArray* types;
+	NSArray* datas;
+	NSString* str;
+
+	for (AVMetadataMachineReadableCodeObject *meta in metadataObjects) {
+		[types arrayByAddingObject: [meta type]];
+		[datas arrayByAddingObject: [meta stringValue]];
+
+		str = [NSString stringWithFormat: @"(%@)%@\n", [meta type], [meta stringValue]];
 	}
+
+	if ([_formerResult isEqualToString: str]) {
+		return;
+	}
+	_formerResult = str;
+
+	[_delegate fastQRView: self captureOutput: datas withOutputType: types];
 }
 
 # pragma mark - AVCaptureMetadataOutputObjectsDelegate
 
 -(void)captureOutput:(AVCaptureOutput *)captureOutput didOutputMetadataObjects:(NSArray *)metadataObjects fromConnection:(AVCaptureConnection *)connection {
     if (metadataObjects != nil && [metadataObjects count] > 0 ) {
-		NSString *str;
-		for (AVMetadataMachineReadableCodeObject *meta in metadataObjects) {
-			str = [NSString stringWithFormat: @"(%@)%@\n", [meta type], [meta stringValue]];
-        }
-		[self performSelectorOnMainThread:@selector(didGetQRCaptureResult:) withObject:str waitUntilDone:NO];
+		[self performSelectorOnMainThread: @selector(didGetQRCaptureResult:) withObject: metadataObjects waitUntilDone: NO];
     }
 }
 
